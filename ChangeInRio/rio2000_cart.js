@@ -61,7 +61,8 @@ Map.addLayer(classified, {min: 0, max: 3, palette: ['#0099ff','red', '#003300', 
 // Exporta o resultado final para o Google Drive
 Export.image.toDrive({
   image: classified,
-  description: 'rio2000_cart_idx',
+  description: 'rio2010_cart_idx',
   scale: 30,
-  maxPixels: 429001276
+  maxPixels: 429001276,
+  dimensions: "9043 x 2219"
 });

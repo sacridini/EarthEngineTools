@@ -63,5 +63,6 @@ Export.image.toDrive({
   image: classified,
   description: 'rio2010_cart_idx',
   scale: 30,
-  maxPixels: 429001276
+  maxPixels: 429001276,
+  dimensions: "9043 x 2219"
 });
